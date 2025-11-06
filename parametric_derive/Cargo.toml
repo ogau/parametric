@@ -6,7 +6,7 @@ authors = ["Ilya Lisunov <huggbeat@gmail.com>"]
 homepage = "https://github.com/ogau/parametric"
 repository = "https://github.com/ogau/parametric"
 description = "A derive macro to bridge complex, hierarchical data structures with optimization algorithms that use flat parameter vectors."
-categories = ["rust-patterns", "mathematics", "science::machine-learning", "simulation", "development-tools::procedural-macro-helpers"]
+categories = ["rust-patterns", "mathematics", "science", "simulation", "development-tools::procedural-macro-helpers"]
 keywords = [
   "proc_macro", "derive", "metaprogramming",
   "optimization", "parametrization",
