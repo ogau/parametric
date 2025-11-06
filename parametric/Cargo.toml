@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Ilya Lisunov <huggbeat@gmail.com>"]
 description = "A crate providing the trait and a derive macro to bridge complex, hierarchical data structures with optimization algorithms that use flat parameter vectors."
-categories = ["rust-patterns", "mathematics", "science::machine-learning", "simulation"]
+categories = ["rust-patterns", "mathematics", "simulation"]
 keywords = [
   "metaprogramming", "parametrization",
   "reparameterization", "machine-learning",
