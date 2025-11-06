@@ -1,0 +1,29 @@
+[package]
+name = "parametric"
+version = "0.1.0"
+edition = "2024"
+authors = ["Ilya Lisunov <huggbeat@gmail.com>"]
+description = "A crate providing the trait and a derive macro to bridge complex, hierarchical data structures with optimization algorithms that use flat parameter vectors."
+categories = ["rust-patterns", "mathematics", "science::machine-learning", "simulation"]
+keywords = [
+  "metaprogramming", "parametrization",
+  "reparameterization", "machine-learning",
+  "optimization",
+]
+homepage = "https://github.com/ogau/parametric"
+repository = "https://github.com/ogau/parametric"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+parametric_derive = { version = "0.1.0", path="../parametric_derive", optional = true }
+array-init = "2.1.0"
+ndarray = { version = "0.16.1", optional = true }
+
+[features]
+derive = ["dep:parametric_derive"]
+ndarray = ["dep:ndarray"]
+default = ["derive"]
+
+[dev-dependencies]
+fastrand = "2.3.0"
